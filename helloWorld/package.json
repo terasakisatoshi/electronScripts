@@ -1,0 +1,12 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "description": "my-first-electron-application",
+  "main": "main.js",
+  "git repository": "https://github.com/terasakisatoshi/electronScripts.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SatoshiTerasaki",
+  "license": "MIT"
+}
