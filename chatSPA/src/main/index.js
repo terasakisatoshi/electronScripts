@@ -1,7 +1,7 @@
 import {app} from "electron";
 import createWindow from "./createWindow";
 
-app.on("ready,()=>{
+app.on("ready",()=>{
 	createWindow();
 });
 
@@ -16,4 +16,3 @@ app.on("activate",(_e,hasVisibleWindows)=>{
 		createWindow();
 	}
 });
-
